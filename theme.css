@@ -1,0 +1,40 @@
+
+#page-title {
+    display:inline-block;
+    position: absolute;
+    right:5px;
+    
+}
+    #head {
+        width:calc(1000px - 20px);
+        position: fixed;
+        top:0px;
+        left:50%;
+        transform:translateX(-50%);
+        background-color:#2F3136;
+        color:white;
+        padding-left:10px;
+        padding-right:10px;
+        height:40px;
+        line-height: 40px;
+        border-bottom: 1px solid #202225;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .6);
+    }
+        #head a {
+            height:25px;
+            border-radius: 3px;
+            margin-left:3px;
+            margin-right:3px;
+            padding:3px;
+        }
+        #head a:hover {
+            background-color:#42464D;
+            
+        }
+        #head a:active {
+
+        }
+
+body {
+    font-family: Segoe ui;
+}
