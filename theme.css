@@ -1,4 +1,4 @@
-body {font-family: segoe ui;background-color:gainsboro}
+body {font-family: segoe ui;background-image: url(bg/office1.jpg); background-repeat: no-repeat;background-size: auto;}
 @media only screen and (min-width: 1200px) {
     #subhead {
         width:1200px;
