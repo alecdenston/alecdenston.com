@@ -1,86 +1,62 @@
-body {font-family: segoe ui;background-image: url(bg/office1.jpg); background-repeat: no-repeat;background-size: auto;}
-@media only screen and (min-width: 1200px) {
-    #subhead {
-        width:1200px;
-        left:50%;
-        transform:translateX(-600px); 
+   
+@media only screen and (min-width: 768px) {
+    #container.a1 {
+
+    }
+    .page {
+        margin-top:50px;
+        font-size: 16px;
+        border-left:2px solid #101010;
+        border-right:2px solid #101010;
+        border-bottom:2px solid #101010;
+        color:white;
+        background-color:#303030;
+    }
+    .page img {
+        border:2px solid black;
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px rgba(0,0,0, .8);
+        float:left;
+        height:161px;
+        width:161px;
+        margin-right: 10px;
+        margin-top:20px;
+        margin-bottom: 10px;
+    }
+    .page b {
+        
     }
 }
-@media only screen and (max-width:1200px) {
-    #subhead {
-        width:100%;
-        left:0px;
-        text-align: left;
+@media only screen and (max-width:768px) {
+    #container.a1 {
+
+    }
+    .page {
+        margin-top:50px;
+        font-size: 16px;
+        color:white;
+        background-color:#303030;
+        text-align: center;
+    }
+    .page img {
+        border:2px solid black;
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px rgba(0,0,0, .8);
+        height:161px;
+        width:161px;
+        margin-right: 10px;
+        margin-top:20px;
+        position: relative;
+    }
+    .page b {
+        
     }
 }
-#head {
-    width:100%;
-    height:50px;
-    background-color: orangered;
-    color:white;
-    position: fixed;
-    left:0px;
-    top:0px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
-    z-index: 2;
-}
-#subhead {
-    line-height: 50px;
-    font-size: 30px;
-    font-weight: 500;
-    left:50%;
-    position: fixed;
-    display: inline-block;
-}
-#head a {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 50px;
-    text-decoration: none;
-    color:white;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline-block;
-    transition:.2s;
-}
-#head a:hover {
-    background-color:orange;
-    height:50px;
-}
-#head a:active {
-    background-color: darkred;
-}
-#links {
-    position: fixed;
-    top:0px;
-    right:0px;
-    line-height: 30px;
-}
-#page {
-    width:1200px;
-    left:50%;
-    position: fixed;
-    transform:translateX(-600px); 
-    border-right:1px solid orangered;
-    border-left:1px solid orangered;
-    top:50px;
-    box-shadow: 0px 0px 10px rgba(0,0,0, .8);
-    background-color:white;
-    margin-bottom: 70px;
-}
-#cc {
-    position: relative;
-    bottom:0px;
-    width:100%;
-    height:50px;
-    line-height: 50px;
+.cp {
     text-align: center;
-    background-color: orangered;
+    line-height: 40px;
+    background-color: #101010;
     color:white;
+    margin-top:0;
 }
-#sel {
-    background-color: red;
-}
-#sel:hover {
-    background-color: red !important;
 }
