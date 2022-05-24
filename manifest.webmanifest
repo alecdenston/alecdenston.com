@@ -1,0 +1,15 @@
+{
+    "background_color": "black",
+    "description": "Alec Denston Official Webpage",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "icon/main_icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "Alec Denston Official Webpage",
+    "short_name": "AlecOfficial",
+    "start_url": "index.html"
+  }
