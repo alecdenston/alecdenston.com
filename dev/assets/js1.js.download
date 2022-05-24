@@ -58,24 +58,3 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 }
 
 }
-/*
-     FILE ARCHIVED ON 18:46:15 Jan 07, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 03:45:42 May 24, 2022.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 98.254
-  exclusion.robots: 0.086
-  exclusion.robots.policy: 0.078
-  RedisCDXSource: 0.857
-  esindex: 0.006
-  LoadShardBlock: 82.196 (3)
-  PetaboxLoader3.datanode: 77.205 (4)
-  CDXLines.iter: 12.986 (3)
-  load_resource: 53.056
-  PetaboxLoader3.resolve: 26.177
-*/

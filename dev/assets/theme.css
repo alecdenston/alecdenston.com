@@ -4,7 +4,7 @@
         
     }
 }
-@media screen and (min-width: 599px) {
+@media screen and (min-width: 600px) {
     #discord {
         position: fixed;
         right:50%;
@@ -18,7 +18,7 @@
     }
     #innerbod {
         position: relative;
-        width:575px;
+        width: 0;
         transition: width .8s;
     }
     #dropdown {
@@ -79,6 +79,7 @@
         background-color: #36393E;
         color:white;
         z-index: 0;
+        min-height: 460px;
     }
     #sel {
     	border-bottom:2px solid lightgray;
@@ -95,6 +96,16 @@
     }
     #postmain {
         width:500px;
+        border:2px solid #1E2124;
+        border-radius: 3px;
+        background-color: #2F3136;
+        position: relative;
+        margin-bottom:20px;
+        box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
+        transition:width .3s;
+    }
+    #postsec {
+        width:950px;
         border:2px solid #1E2124;
         border-radius: 3px;
         background-color: #2F3136;
@@ -165,8 +176,17 @@
         position: relative;
         margin-bottom:20px;
         box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
-        transition:width .3s;
-        
+        transition:width .3s; 
+    }
+    #postsec {
+        width:100%;
+        border:2px solid #1E2124;
+        border-radius: 3px;
+        background-color: #2F3136;
+        position: relative;
+        margin-bottom:20px;
+        box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
+        transition:width .3s; 
     }
     #info {
         padding-top: 10px;
@@ -295,7 +315,7 @@
         
     }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1001px) {
     #x1 {
         width:30px;
         height:30px;
@@ -336,6 +356,7 @@
         left:50% !important;
         transform: translateX(-500px);
     }
+
 }
 @media screen and (max-width: 1000px) {
     #x1 {
@@ -425,6 +446,16 @@
     }
     #head h2 {
         padding-right: 10px;
+    }
+    #postsec {
+        width:100%;
+        border:2px solid #1E2124;
+        border-radius: 3px;
+        background-color: #2F3136;
+        position: relative;
+        margin-bottom:20px;
+        box-shadow:0px 0px 10px rgba(0, 0, 0, .3);
+        transition:width .3s; 
     }
 }
 body {
