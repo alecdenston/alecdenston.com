@@ -521,24 +521,10 @@ body {
 .pc {
     display:block !important;
 }
-/*
-     FILE ARCHIVED ON 17:05:50 Jan 07, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 03:45:42 May 24, 2022.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 54.336
-  exclusion.robots: 0.091
-  exclusion.robots.policy: 0.08
-  RedisCDXSource: 1.438
-  esindex: 0.011
-  LoadShardBlock: 36.217 (3)
-  PetaboxLoader3.datanode: 53.382 (4)
-  CDXLines.iter: 14.208 (3)
-  load_resource: 321.105
-  PetaboxLoader3.resolve: 61.602
-*/
+.info_img {
+    border:1px solid ;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 80%;
+}
